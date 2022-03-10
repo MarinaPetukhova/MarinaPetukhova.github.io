@@ -10,6 +10,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    height: 100%;
+    padding: 2rem 2rem 2rem 2rem;
 }
 
 /* Цвет фона и текста */
@@ -45,8 +47,7 @@ body {
     left: 0;
     right: 0;
     z-index: 1000;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 1rem;
     width: 100%;
     background-color: black;
 }
@@ -93,7 +94,7 @@ body {
     background-image: url(../img/web.png);
     width: 100%;
     height: 70vh;
-    padding-top: 100px;
+    padding-top: 200px;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
