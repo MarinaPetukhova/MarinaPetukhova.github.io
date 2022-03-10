@@ -5,68 +5,121 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d8e7256b3e.js" crossorigin="anonymous"></script>
     <title>Главная</title>
 </head>
 <body>
     <div class="nav_container">
-        <div class="home">
-            <a href ="index.html"><i class="fa-solid fa-house"></i></a>
+        <div class="container">
+            <div class="nav__inner">
+                <div class="home">
+                    <a class="logo_link" href ="index.html"><i class="fa-solid fa-house fa-xl"></i></a>
+                </div>
+                <nav class="nav">
+                    <a class="nav_link" href ="pages/about.html">О себе</a>
+                    <a class="nav_link" href ="pages/сompetence.html">Компетенция</a>
+                    <a class="nav_link" href ="pages/resume.html">Резюме</a>
+                    <a class="nav_link" href ="pages/portfolio.html">Портфолио</a>
+                </nav>
+            </div>
         </div>
-        <nav>
-            <ul class="nav_links">
-                <li><a href ="pages/about.html">О себе</a></li>
-                <li><a href ="pages/сompetence.html">Компетенция</a></li>
-                <li><a href ="pages/resume.html">Резюме</a></li>
-                <li><a href ="pages/portfolio.html">Портфолио</a></li>
-            </ul>
-        </nav>
     </div>
-    <header>
-        <h1 class="header_h1">Веб-технологии</h1>
-        <h3 class="header_h3">Университет "Дубна"</h3>
+    <header class="header BlackBackground">
+        <div class="container">
+            <div class="head__container">
+                <h1 class="header__title">Веб-технологии</h1>
+                <h2 class="header__subtitle">Университет "Дубна"</h3>
+            </div>
+        </div>
     </header>
     <main>
-        <div class = "blok-1">
-            <img src="img/coffee.png" width="400">
-            <h2>Заголовок</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem voluptate rerum aut in a dolore quis maiores neque voluptas ullam autem earum illum magni nemo nam, non vitae? Iusto, at?</p>
-        </div>
-        <div class = "blok-2">
-            <h2>Мои компетенции</h2>
-            <img src="img/avito.png" width="200">
-            <h3>Avito</h3>
-            <img src="img/ozon.png" width="200">
-            <h3>Ozon</h3>
-            <img src="img/wildberries.png" width="200">
-            <h3>Wildberries</h3>
-        </div>
-        <div class = "blok-3">
-            <h2>Услуги</h2>
-            <ul>
-                <li>Веб дизайн сайта</li>
-                <li>Адаптивный дизайн и редизайн</li>
-                <li>Дизайн сервисов и порталов</li>
-                <li>Анализ, проектирование и дизайн</li>
-            </ul>
-            <ul>
-                <li>Дизайн интернет-магазинов</li>
-                <li>UX/UI дизайн интерфейсов</li>
-                <li>SEO продвижение сайтов</li>
-                <li>Брендинг</li>
-            </ul>
-        </div>
-        <div class = "blok-4">
-            <h2>Заголовок</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, tenetur tempora ipsam blanditiis sequi quidem accusantium et ad recusandae eum a similique porro autem suscipit, quibusdam, dolore id nemo ab!</p>
-            <button>Подробнее</button>
-        </div>
+        <section class="section WhiteBackground">
+            <div class="container">
+                <div class="section__header">
+                    <div class="sect">
+                        <div class="sect__item">
+                            <h2 class="sect__title">Заголовок</h2>
+                            <div class="sect__text">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem voluptate rerum aut in a dolore quis maiores neque voluptas ullam autem earum illum magni nemo nam, non vitae? Iusto, at?</p>
+                            </div>
+                        </div>
+                        <div class="sect__item">
+                            <img src="img/sprin.png" width="600">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section BlackBackground">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Мои компетенции</h2>
+                    <div class="competition">
+                        <div class="competition__item">
+                            <img src="img/avito.png" width="150">
+                            <h3 class="section__text">Avito</h3>
+                        </div>
+                        <div class="competition__item">
+                            <img src="img/ozon.png" width="150">
+                            <h3 class="section__text">Ozon</h3>
+                        </div>
+                        <div class="competition__item">
+                            <img src="img/wildberries.png" width="150">
+                            <h3 class="section__text">Wildberries</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section WhiteBackground">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Услуги</h2>
+                    <div class="service">
+                        <div class="service__item">
+                            <ul>
+                                <li>Веб дизайн сайта</li>
+                                <li>Адаптивный дизайн и редизайн</li>
+                                <li>Дизайн сервисов и порталов</li>
+                                <li>Анализ, проектирование и дизайн</li>
+                            </ul>
+                        </div>
+                        <div class="service__item">
+                            <ul>
+                                <li>Дизайн интернет-магазинов</li>
+                                <li>UX/UI дизайн интерфейсов</li>
+                                <li>SEO продвижение сайтов</li>
+                                <li>Брендинг</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section BlackBackground">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Заголовок</h2>
+                    <div class="section__text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, tenetur tempora ipsam blanditiis sequi quidem accusantium et ad recusandae eum a similique porro autem suscipit, quibusdam, dolore id nemo ab!</p>
+                    </div>
+                    <a class="btn" href="#">Подробнее</a>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-        <div>Cайт разработан Петуховой Мариной, Copyright © 2022</div>
-        <div>
-            <a href ="https://vk.com/marinapetukhova"><img src="img/vk.png" width="100"></a>
-            <a href ="https://github.com/MarinaPetukhova"><img src="img/github.png" width="100"></a>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__item">
+                <div class="footer__img">
+                    <a href ="https://vk.com/marinapetukhova"><img src="img/vk.png" width="100"></a>
+                    <a href ="https://github.com/MarinaPetukhova"><img src="img/github.png" width="100"></a>
+                </div>
+                <div class="footer__text">
+                    <p>Cайт разработан Петуховой Мариной, Copyright © 2022</p>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
