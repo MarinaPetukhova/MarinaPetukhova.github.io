@@ -32,60 +32,67 @@
         </div>
     </header>
     <main>
-        <h2>Университет "Дубна"</h2>
-        <h3>Есть вопросы?</h3>
-        <form action="" method="get">
-            <div>
-                <div>Как Вам удобно получить ответ:</div>
-                <label for="c_mail"><input type="radio" name="com_tion" id="c_mail">По почте</label><br>
-                <label for="c_tel"><input type="radio" name="com_tion" id="c_tel">По телефону</label><br>
-                <label for="c_none"><input type="radio" name="com_tion" id="c_none">Не нужно отвечать</label><br>
+        <section class="section WhiteBackground">
+            <div class="container">
+                <div class="section__header">
+                    <div class="form__position">
+                        <h3 class="section__title">Есть вопросы?</h3>
+                    <form action="" method="get">
+                        <div class="form">
+                            <div>Как Вам удобно получить ответ:</div>
+                            <label for="c_mail"><input type="radio" name="com_tion" id="c_mail">По почте</label><br>
+                            <label for="c_tel"><input type="radio" name="com_tion" id="c_tel">По телефону</label><br>
+                            <label for="c_none"><input type="radio" name="com_tion" id="c_none">Не нужно отвечать</label><br>
+                        </div>
+                        <div class="form">
+                            <label for="theme">Укажите тему вопроса:</label><br>
+                            <select name="theme" id="theme">
+                                <option value="work">Работа</option>
+                                <option value="cooperation">Сотрудничество</option>
+                                <option value="personal">Личное</option>
+                            </select>
+                        </div>
+                        <div class="form">
+                            <div>И еще один вопрос:</div>
+                            <label for="chb1"><input type="checkbox" name="chb1" id="chb1">Может так</label><br>
+                            <label for="chb2"><input type="checkbox" name="chb2" id="chb1">Или не так</label><br>
+                            <label for="chb3"><input type="checkbox" name="chb3" id="chb1">Иначе</label><br>
+                        </div>
+                        <div class="form">
+                            <label for="name">Имя: </label><input type="text" id="name">
+                        </div>
+                        <div class="form">
+                            <label for="email">E-mail: </label>
+                            <input type="email" id="email">
+                        </div>
+                        <div class="form">
+                            <label for="phone">Номер телефона: </label>
+                            <input type="tel" id="phone">
+                        </div>
+                        <div class="form">
+                            <div>Ваш вопрос:</div>
+                            <div>
+                                <textarea cols="20"></textarea>
+                            </div>
+                        </div>
+                        <div class="form">
+                            <input type="submit" value="Отправить вопрос">
+                            <input type="reset" value="Очистить">
+                        </div>
+                    </form>
+                    </div>
+                </div>
             </div>
-            <div>
-                <label for="theme">Укажите тему вопроса:</label><br>
-                <select name="theme" id="theme">
-                    <option value="work">Работа</option>
-                    <option value="cooperation">Сотрудничество</option>
-                    <option value="personal">Личное</option>
-                </select>
-            </div>
-            <div>
-                <div>И еще один вопрос:</div>
-                <label for="chb1"><input type="checkbox" name="chb1" id="chb1">Может так</label><br>
-                <label for="chb2"><input type="checkbox" name="chb2" id="chb1">Или не так</label><br>
-                <label for="chb3"><input type="checkbox" name="chb3" id="chb1">Иначе</label><br>
-            </div>
-            <div>
-                <label for="name">Имя: </label><input type="text" id="name">
-            </div>
-            <div>
-                <label for="email">E-mail: </label>
-                <input type="email" id="email">
-            </div>
-            <div>
-                <label for="phone">Номер телефона: </label>
-                <input type="tel" id="phone">
-            </div>
-            <div>
-                <div>Ваш вопрос:</div>
-            </div>
-            <div>
-                <textarea cols="20"></textarea>
-            </div>
-          <input type="submit" value="Отправить вопрос">
-          <input type="reset" value="Очистить">
-        </form>
+        </section>
     </main>
     <footer class="footer">
-        <div class="container">
-            <div class="footer__item">
-                <div class="footer__img">
-                    <a href ="https://vk.com/marinapetukhova"><img src="../img/vk.png" width="100"></a>
-                    <a href ="https://github.com/MarinaPetukhova"><img src="../img/github.png" width="100"></a>
-                </div>
-                <div class="footer__text">
-                    <p>Cайт разработан Петуховой Мариной, Copyright © 2022</p>
-                </div>
+        <div class="footer__item">
+             <div class="footer__img">
+                <a href ="https://vk.com/marinapetukhova"><img src="../img/vk.png" width="100"></a>
+                <a href ="https://github.com/MarinaPetukhova"><img src="../img/github.png" width="100"></a>
+            </div>
+            <div class="footer__text">
+                <p>Cайт разработан Петуховой Мариной, Copyright © 2022</p>
             </div>
         </div>
     </footer>

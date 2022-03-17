@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 .container {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     height: 100%;
     padding: 2rem 2rem 2rem 2rem;
 }
@@ -34,7 +34,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     color: black;
-    margin: 0;
+    margin: auto;
     line-height: 1.6;
     min-height: 100%;
 }
@@ -104,7 +104,7 @@ body {
 .head__container {
     width: 100%;
     max-width: 880px;
-    margin: 0 auto;
+    margin: auto;
     padding-left: 380px;
 }
 
@@ -126,13 +126,12 @@ body {
 /* Section */
 
 .section {
-    padding: 80px 0;
+    padding: 20px 0;
 }
 
 .section__header {
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
-    padding-top: 10px;
 }
 
 .section__title {
@@ -178,7 +177,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 0 auto;
+    margin: auto;
     padding-top: 10px;
 }
 
@@ -192,7 +191,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 0 auto;
+    margin: auto;
     padding-top: 10px;
 }
 
@@ -214,8 +213,8 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: left;
-    align-items: flex-start;
-    margin: 0 auto;
+    align-items: center;
+    margin: auto;
     padding-top: 10px;
     text-align: left;
 }
@@ -253,4 +252,76 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/*Границы для страницы Портфолио*/
+
+.border__bottom {
+    border-bottom: 3px solid royalblue;
+}
+
+/*Таблица*/
+
+table {
+    border: 2px solid royalblue;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+th {
+    font-size: 18px;
+    font-weight: normal;
+    background: black;
+    color: white;
+    padding: 8px;
+}
+
+.table_year {
+    width: 150px;
+}
+
+.table_place {
+    width: 250px;
+}
+
+.table_function {
+    width: 450px;
+}
+
+td {
+    background: white;
+    color: black;
+    padding: 8px;
+    font-size: 15px;
+    text-align: left;
+}
+
+tr:hover td {
+    background: #ccddff;
+}
+
+caption {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 20px;
+}
+
+/*Форма*/
+
+.form {
+    padding: 10px;
+    text-align: left;
+    align-items: center;
+}
+
+.form__position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    border: 2px solid royalblue;
 }
